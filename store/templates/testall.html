@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Store</h1>
+  
+<ul>
+{% for x in products %}
+
+<li><a href="testDetail/{{x.id}}"> {{ x.product_name }}</a></li>
+
+{% endfor %}
+</ul>
+
+</body>
+</html>
